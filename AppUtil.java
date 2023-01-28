@@ -19,7 +19,7 @@
 /**
  * Utilities for Restaurants.
  */
-public class RestaurantUtil {
+public class AppUtil {
 
     public static Restaurant getRandom(Context context) {
         Restaurant restaurant = new Restaurant();
