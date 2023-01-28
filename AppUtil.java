@@ -13,10 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package com.bj.enterprise.simple.simple.utils;
-
-//import com.google.firebase.example.fireeats.R;
-//import com.google.firebase.example.fireeats.model.Restaurant;
+ package com.jabb.e.utils;
 
 
 /**
@@ -24,43 +21,6 @@
  */
 public class RestaurantUtil {
 
-    /*
-    private static final String TAG = "RestaurantUtil";
-
-    private static final ThreadPoolExecutor EXECUTOR = new ThreadPoolExecutor(2, 4, 60,
-            TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
-
-    private static final String RESTAURANT_URL_FMT = "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_%d.png";
-
-    private static final int MAX_IMAGE_NUM = 22;
-
-    private static final String[] NAME_FIRST_WORDS = {
-            "Foo",
-            "Bar",
-            "Baz",
-            "Qux",
-            "Fire",
-            "Sam's",
-            "World Famous",
-            "Google",
-            "The Best",
-    };
-
-    private static final String[] NAME_SECOND_WORDS = {
-            "Restaurant",
-            "Cafe",
-            "Spot",
-            "Eatin' Place",
-            "Eatery",
-            "Drive Thru",
-            "Diner",
-    };
-
-
-    /**
-     * Create a random Restaurant POJO.
-     */
-    /*
     public static Restaurant getRandom(Context context) {
         Restaurant restaurant = new Restaurant();
         Random random = new Random();
